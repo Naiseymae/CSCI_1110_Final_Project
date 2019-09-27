@@ -43,13 +43,13 @@ The code below is a portion of the graphicAA method inside the AminoAcid class w
 			
 			// STOP codons.
 			if (codonArray[i].equals("UAA") || codonArray[i].equals("UAG") || codonArray[i].equals("UGA")) { 
+				
 				// Stop adding amino acid circles & display STOP label.
 				Rectangle rectangle = new Rectangle(50, 25, Color.valueOf("WHITE"));
 				rectangle.setStroke(Color.BLACK);
 				Label lblSTOP = new Label("STOP", rectangle);
 				lblSTOP.setContentDisplay(ContentDisplay.CENTER);
-				//StackPane stackPane = new StackPane();
-				//stackPane.getChildren().addAll(lblSTOP);
+		
 				// Each codon variation label is displayed below aa circle.
 				if (codonArray[i].equals("UAA")){
 					Label lblUAA = new Label("UAA", lblSTOP);
@@ -74,6 +74,7 @@ The code below is a portion of the graphicAA method inside the AminoAcid class w
 			if (codonArray[i].equals("UUU") || codonArray[i].equals("UUC")) {
 				Label lblPHE = new Label("PHE", new Circle(20, Color.rgb(180, 134, 194)));
 				lblPHE.setContentDisplay(ContentDisplay.CENTER);
+				
 				// Each codon variation label is displayed below aa circle.
 				if (codonArray[i].equals("UUU")){
 					Label lblUUU = new Label("UUU", lblPHE);
