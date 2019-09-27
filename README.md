@@ -88,7 +88,7 @@ The code below is a portion of the graphicAA method inside the AminoAcid class w
 			}
 ```
 
-[Program showing multiple CONSERVE and MUTATE buttons pressed.](Code_Example_2.png)
+[Program after multiple CONSERVE and MUTATE buttons pressed.](Code_Example_2.png)
 
 ## Motivation
 
