@@ -28,7 +28,8 @@ The following code shows how the replication method is called when the START but
 			// Conserve/Mutate buttons appear.
 			pane.setBottom(btPane); // Add buttons to bottom of pane after Start button pressed.
 			btPane.setAlignment(Pos.CENTER); // Center mutate/conserve buttons.
-		});		   ```
+		});		   
+```
    
 ## Code Example 2
 
