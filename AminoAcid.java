@@ -1,9 +1,3 @@
-import java.util.ArrayList;
-import javafx.scene.paint.*;
-import javafx.scene.shape.*;
-import javafx.scene.layout.*;
-import javafx.scene.control.*;
-
 /* 
  * Author: Renee Linford
  * Date: 9-16-19
@@ -26,16 +20,19 @@ import javafx.scene.control.*;
  * 
  */
 
+import java.util.ArrayList;
+import javafx.scene.paint.*;
+import javafx.scene.shape.*;
+import javafx.scene.layout.*;
+import javafx.scene.control.*;
+
 public class AminoAcid extends HBox {
-	// AminoAcidString extends Circle class. 
 	// Creates and displays a representation of an amino acid string.
 
 	// Variables for class.
 	private ArrayList<String> aaList = new ArrayList<>();
-	//private ArrayList<Circle> aaCircles = new ArrayList<>();
 	private String [] codonArray = new String[this.aaList.size() / 3];
 	private String [] aminoAcidArray = new String[codonArray.length];
-	private int repCount;
 
 	// Set no-arg constructor.
 	public AminoAcid() {
@@ -43,6 +40,7 @@ public class AminoAcid extends HBox {
 			
 	// Set constructor with array.
 	public AminoAcid(String[] stringArray) {
+		// Converts String [] to ArrayList<String>.
 		for (int i = 0; i < stringArray.length; i++) {
 			this.aaList.add(stringArray[i]);
 		}
@@ -54,21 +52,6 @@ public class AminoAcid extends HBox {
 		aminoAcidArray = toAminoAcid(codonArray);
 
 	}
-
-	// Set constructor with array and repCount.
-		public AminoAcid(String[] stringArray, int count) {
-			this.repCount = count;
-			
-			for (int i = 0; i < stringArray.length; i++) {
-				this.aaList.add(stringArray[i]);
-			}
-			
-			// Convert baseSequence with originalRNA into codons.
-			codonArray = toCodon(stringArray); 
-			
-			// Convert codonArray to amino acids. 
-			aminoAcidArray = toAminoAcid(codonArray);
-		}
 
 	public int getLength() {
 		// Get length of AminoAcidString.
