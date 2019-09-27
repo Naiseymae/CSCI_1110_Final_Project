@@ -30,6 +30,8 @@ The following code shows how the replication method is called when the START but
 			btPane.setAlignment(Pos.CENTER); // Center mutate/conserve buttons.
 		});		   
 ```
+
+[After START button pressed.](Code_Example_1.png)
    
 ## Code Example 2
 
@@ -86,6 +88,7 @@ The code below is a portion of the graphicAA method inside the AminoAcid class w
 			}
 ```
 
+[Program showing multiple CONSERVE and MUTATE buttons pressed.](Code_Example_2.png)
 
 ## Motivation
 
