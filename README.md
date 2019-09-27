@@ -36,7 +36,7 @@ Display after RNA sequence added and START button pressed.
    
 ## Code Example 2
 
-The code below is a portion of the graphicAA method inside the AminoAcid class which returns an HBox filled with amino acid circles that will be displayed in the main pane.  This method requires an ArrayList where each index is a codon (3 characters such as “AAA” or “UAG”).  It will match the codon in the ArrayList to its amino acid and create a new label with a circle object while also displaying the codon sequence underneath the circle.  When the sequence for a STOP codon is found, a rectangle instead of an amino acid circle is created, and the method ends.
+The code below is a portion of the graphicAA method inside the AminoAcid class which returns an HBox filled with amino acid circles that will be displayed in the main pane.  This method requires a string array where each index is a codon (3 characters such as “AAA” or “UAG”).  It will match the codon in the array to an amino acid and create a new label with a circle object while also displaying the codon sequence underneath the circle.  When the sequence for a STOP codon is found, a rectangle instead of an amino acid circle is created, and the method ends.
 
 ```java
 		// Match the amino acid name to a circle of the corresponding color for the whole ArrayList.
