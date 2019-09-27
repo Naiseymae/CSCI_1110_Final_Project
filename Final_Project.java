@@ -1,5 +1,3 @@
-package final_project;
-
 /* 
  * Author: Renee Linford
  * Date: 9-27-19
