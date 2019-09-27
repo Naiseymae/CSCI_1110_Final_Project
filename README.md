@@ -31,7 +31,8 @@ The following code shows how the replication method is called when the START but
 		});		   
 ```
 
-[After START button pressed.](Code_Example_1.png)
+![](Code_Example_1.png)
+Display after RNA sequence added and START button pressed.
    
 ## Code Example 2
 
@@ -89,8 +90,10 @@ The code below is a portion of the graphicAA method inside the AminoAcid class w
 			}
 ```
 
-[Program after multiple CONSERVE and MUTATE buttons pressed.](Code_Example_2.png)
+![](Code_Example_2.png)
+Display after multiple CONSERVE and MUTATE buttons pressed.
+
 
 ## Motivation
 
-I wanted to build on the project from my Intro to Programming Final Project and create a new program that actually displays the amino acids coded for in the RNA sequence.  In this way I hoped to make the translation process (converting RNA into an amino acid string, which is used to build a protein) more interesting, fun, and easy for the user.  A user can create their own RNA sequence and watch how that string can change and affect (or not affect) the output of amino acids.  I hope to continue to build upon this idea to make cell biology education more engaging and fun. 
+I wanted to build on the project from my Intro to Programming course and create a new program that actually displays the amino acids coded for in the RNA sequence.  In this way I hoped to make the translation process (converting RNA into an amino acid string, which is used to build a protein) more interesting, fun, and easy for the user.  A user can create their own RNA sequence and watch how that string can change and affect (or not affect) the output of amino acids.  I hope to continue to build upon this idea to make cell biology education more engaging and fun. 
